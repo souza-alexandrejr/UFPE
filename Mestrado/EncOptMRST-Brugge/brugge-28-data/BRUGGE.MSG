@@ -1,0 +1,247 @@
+<eclipse>
+<message source="eclrun" date="" time="0">
+Executing ECLIPSE on pc system with x86_64 architecture named PE-GLD-188414
+</message>
+<message source="eclrun" date="" time="0">
+Process ID is 13780
+</message>
+<message source="eclrun" date="" time="0">
+Starting HDF conversion ...
+</message>
+<message source="eclrun" date="" time="0">
+HDF conversion completed successfully.
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      25806 KBYTES                                                       
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ TRANSMISSIBILITIES TO BE CALCULATED                                     
+ USING  NEWTRAN                                                          
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ 153 NON-NEIGHBOUR CONNECTIONS PRESENT                                   
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 43217                                         
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+      55802 KBYTES                                                       
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+    63056 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="31/12/2014" time="0.00000000000000">
+ WELL BR-I-1   CONNECTS WITH A DEAD BLOCK                                
+ (  32  44   1). THIS CONNECTION WILL BE IGNORED.                        
+</warning>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-1   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-2   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-3   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-4   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-5   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-6   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-7   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-8   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-9   AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-10  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-11  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-12  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-13  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-14  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-15  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-16  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-17  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-18  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-19  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-P-20  AT TIME      0.00   DAYS                          
+ CONTROLLED BY LIQUID RATE                                               
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-1   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-2   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-3   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-4   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-5   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-6   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-7   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-8   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-9   AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ OPENING WELL BR-I-10  AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ ******************************************                              
+ * WELL BR-P-9   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      0.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="31/12/2014" time="0.00000000000000">
+ ******************************************                              
+ * WELL BR-P-15  HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      0.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="31/3/2016" time="456.25000000000000">
+ ******************************************                              
+ * WELL BR-P-10  HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    456.25   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="30/12/2016" time="730.00000000000000">
+ ******************************************                              
+ * WELL BR-P-1   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    730.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="30/12/2017" time="1095.00000000000000">
+ ******************************************                              
+ * WELL BR-P-4   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   1095.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="30/6/2018" time="1277.50000000000000">
+ ******************************************                              
+ * WELL BR-P-5   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   1277.50   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="29/9/2019" time="1733.75000000000000">
+ ******************************************                              
+ * WELL BR-P-8   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   1733.75   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="29/9/2019" time="1733.75000000000000">
+ ******************************************                              
+ * WELL BR-P-16  HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   1733.75   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="29/12/2020" time="2190.00000000000000">
+ ******************************************                              
+ * WELL BR-P-14  HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   2190.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="30/3/2021" time="2281.25000000000000">
+ ******************************************                              
+ * WELL BR-P-7   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   2281.25   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="29/3/2024" time="3376.25000000000000">
+ ******************************************                              
+ * WELL BR-P-3   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   3376.25   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="28/12/2026" time="4380.00000000000000">
+ ******************************************                              
+ * WELL BR-P-6   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   4380.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+</eclipse>

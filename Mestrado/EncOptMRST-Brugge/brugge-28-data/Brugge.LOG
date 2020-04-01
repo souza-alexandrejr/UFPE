@@ -1,0 +1,631 @@
+
+ Proprietary Notice
+ This application contains the confidential and
+ proprietary trade secrets of Schlumberger and may
+ not be copied or stored in an information retrieval
+ system, transferred, used, distributed, translated,
+ or retransmitted in any form or by any means, electronic
+ or mechanical, in whole or in part, without the
+ express written permission of the copyright owner.
+
+ ECLIPSE is a mark of Schlumberger. Copyright (c)
+ 1981-2018 Schlumberger. All rights reserved.
+
+     1 READING RUNSPEC
+     2 READING TITLE
+     3 READING DIMENS
+     4 READING UNIFOUT
+     5 READING OIL
+     6 READING WATER
+     7 READING FIELD
+     8 READING ENDSCALE
+     9 READING TABDIMS
+    10 READING WELLDIMS
+    11 READING START
+    12 READING NSTACK
+    13 READING MESSAGES
+    14 READING NOECHO
+    15 READING GRID
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           CHECKING FOR LICENSES
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS
+ @                25806 KBYTES
+    16 READING INIT
+    17 READING GRIDFILE
+    18 READING INCLUDE ACTNUM.INC
+    19 READING ACTNUM
+               END OF INCLUDE FILE
+    20 READING INCLUDE PORO.INC
+    21 READING PORO
+               END OF INCLUDE FILE
+    22 READING INCLUDE PERMX.INC
+    23 READING PERMX
+               END OF INCLUDE FILE
+    24 READING COPY
+    25 READING INCLUDE PERMZ.INC
+    26 READING PERMZ
+               END OF INCLUDE FILE
+    27 READING INCLUDE NTG.INC
+    28 READING NTG
+               END OF INCLUDE FILE
+    29 READING INCLUDE GRID.GRD
+    30 READING MAPUNITS
+    31 READING MAPAXES
+    32 READING GRIDUNIT
+    33 READING SPECGRID
+    34 READING COORDSYS
+    35 READING COORD
+    36 READING ZCORN
+               END OF INCLUDE FILE
+    37 READING PROPS
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED
+ @           TRANSMISSIBILITIES TO BE CALCULATED
+ @           USING  NEWTRAN
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           153 NON-NEIGHBOUR CONNECTIONS PRESENT
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           NUMBER OF ACTIVE CELLS IS 43217
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS
+ @                55802 KBYTES
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @              63056 CHARACTER VARIABLES USED
+    38 READING SWOF
+    39 READING SWU
+    40 READING PMAX
+    41 READING PVDO
+    42 READING DENSITY
+    43 READING PVTW
+    44 READING ROCK
+    45 READING REGIONS
+    46 READING ENDBOX
+    47 READING SOLUTION
+    48 READING EQUIL
+    49 READING SUMMARY
+    50 READING ALL
+    51 READING EXCEL
+    52 READING SCHEDULE
+    53 READING TUNING
+    54 READING WELSPECS
+    55 READING INCLUDE WELL_CON.INC
+    56 READING COMPDAT
+
+ @--WARNING  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           WELL BR-I-1   CONNECTS WITH A DEAD BLOCK
+ @           (  32  44   1). THIS CONNECTION WILL BE IGNORED.
+    57 READING WCONPROD
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-1   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-2   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-3   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-4   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-5   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-6   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-7   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-8   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-9   AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-10  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-11  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-12  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-13  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-14  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-15  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-16  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-17  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-18  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-19  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-P-20  AT TIME      0.00   DAYS
+ @           CONTROLLED BY LIQUID RATE
+    58 READING WCONINJE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-1   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-2   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-3   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-4   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-5   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-6   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-7   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-8   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-9   AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           OPENING WELL BR-I-10  AT TIME      0.00   DAYS
+ @           CONTROLLED BY WATER RATE
+               END OF INCLUDE FILE
+    59 READING TSTEP
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           ******************************************
+ @           * WELL BR-P-9   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME      0.00   DAYS  .          *
+ @           ******************************************
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (31-DEC-2014):
+ @           ******************************************
+ @           * WELL BR-P-15  HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME      0.00   DAYS  .          *
+ @           ******************************************
+ STEP    1 TIME=      1.00  DAYS (    +1.0  DAYS INIT  2 ITS) (1-JAN-2015)
+  PAV=  2350.5  PSIA   WCT=0.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    2 TIME=      4.00  DAYS (    +3.0  DAYS MAXF  1 ITS) (4-JAN-2015)
+  PAV=  2334.7  PSIA   WCT=0.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    3 TIME=     13.00  DAYS (    +9.0  DAYS MAXF  2 ITS) (13-JAN-2015)
+  PAV=  2296.6  PSIA   WCT=0.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    4 TIME=     40.00  DAYS (   +27.0  DAYS MAXF  2 ITS) (9-FEB-2015)
+  PAV=  2215.8  PSIA   WCT=0.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    5 TIME=     91.25  DAYS (   +51.2  DAYS REPT  2 ITS) (1-APR-2015)
+  PAV=  2109.6  PSIA   WCT=0.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    6 TIME=    182.50  DAYS (   +91.2  DAYS REPT  3 ITS) (1-JLY-2015)
+  PAV=  1978.6  PSIA   WCT=0.003 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    7 TIME=    273.75  DAYS (   +91.2  DAYS REPT  3 ITS) (30-SEP-2015)
+  PAV=  1876.2  PSIA   WCT=0.010 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    8 TIME=    365.00  DAYS (   +91.2  DAYS REPT  3 ITS) (31-DEC-2015)
+  PAV=  1790.8  PSIA   WCT=0.018 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP    9 TIME=    456.25  DAYS (   +91.2  DAYS REPT  3 ITS) (31-MAR-2016)
+  PAV=  1717.2  PSIA   WCT=0.029 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME      456.2   DAYS    (31-MAR-2016):
+ @           ******************************************
+ @           * WELL BR-P-10  HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME    456.25   DAYS  .          *
+ @           ******************************************
+ STEP   10 TIME=    547.50  DAYS (   +91.2  DAYS REPT  3 ITS) (30-JUN-2016)
+  PAV=  1652.4  PSIA   WCT=0.041 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   11 TIME=    638.75  DAYS (   +91.2  DAYS REPT  3 ITS) (29-SEP-2016)
+  PAV=  1594.2  PSIA   WCT=0.057 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   12 TIME=    730.00  DAYS (   +91.2  DAYS REPT  3 ITS) (30-DEC-2016)
+  PAV=  1541.1  PSIA   WCT=0.073 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME      730.0   DAYS    (30-DEC-2016):
+ @           ******************************************
+ @           * WELL BR-P-1   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME    730.00   DAYS  .          *
+ @           ******************************************
+ STEP   13 TIME=    821.25  DAYS (   +91.2  DAYS REPT  2 ITS) (31-MAR-2017)
+  PAV=  1493.7  PSIA   WCT=0.089 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   14 TIME=    912.50  DAYS (   +91.2  DAYS REPT  3 ITS) (30-JUN-2017)
+  PAV=  1452.1  PSIA   WCT=0.105 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   15 TIME=   1003.75  DAYS (   +91.2  DAYS REPT  2 ITS) (29-SEP-2017)
+  PAV=  1414.3  PSIA   WCT=0.122 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   16 TIME=   1095.00  DAYS (   +91.2  DAYS REPT  3 ITS) (30-DEC-2017)
+  PAV=  1379.3  PSIA   WCT=0.139 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     1095.0   DAYS    (30-DEC-2017):
+ @           ******************************************
+ @           * WELL BR-P-4   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   1095.00   DAYS  .          *
+ @           ******************************************
+ STEP   17 TIME=   1186.25  DAYS (   +91.2  DAYS REPT  3 ITS) (31-MAR-2018)
+  PAV=  1347.6  PSIA   WCT=0.158 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   18 TIME=   1277.50  DAYS (   +91.2  DAYS REPT  2 ITS) (30-JUN-2018)
+  PAV=  1318.2  PSIA   WCT=0.176 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     1277.5   DAYS    (30-JUN-2018):
+ @           ******************************************
+ @           * WELL BR-P-5   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   1277.50   DAYS  .          *
+ @           ******************************************
+ STEP   19 TIME=   1368.75  DAYS (   +91.2  DAYS REPT  2 ITS) (29-SEP-2018)
+  PAV=  1290.9  PSIA   WCT=0.195 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   20 TIME=   1460.00  DAYS (   +91.2  DAYS REPT  3 ITS) (30-DEC-2018)
+  PAV=  1265.2  PSIA   WCT=0.212 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   21 TIME=   1551.25  DAYS (   +91.2  DAYS REPT  2 ITS) (31-MAR-2019)
+  PAV=  1240.4  PSIA   WCT=0.229 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   22 TIME=   1642.50  DAYS (   +91.2  DAYS REPT  2 ITS) (30-JUN-2019)
+  PAV=  1216.3  PSIA   WCT=0.246 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   23 TIME=   1733.75  DAYS (   +91.2  DAYS REPT  2 ITS) (29-SEP-2019)
+  PAV=  1193.0  PSIA   WCT=0.263 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     1733.8   DAYS    (29-SEP-2019):
+ @           ******************************************
+ @           * WELL BR-P-8   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   1733.75   DAYS  .          *
+ @           ******************************************
+
+ @--MESSAGE  AT TIME     1733.8   DAYS    (29-SEP-2019):
+ @           ******************************************
+ @           * WELL BR-P-16  HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   1733.75   DAYS  .          *
+ @           ******************************************
+ STEP   24 TIME=   1825.00  DAYS (   +91.2  DAYS REPT  3 ITS) (30-DEC-2019)
+  PAV=  1171.8  PSIA   WCT=0.280 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   25 TIME=   1916.25  DAYS (   +91.2  DAYS REPT  3 ITS) (30-MAR-2020)
+  PAV=  1151.7  PSIA   WCT=0.296 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   26 TIME=   2007.50  DAYS (   +91.2  DAYS REPT  2 ITS) (29-JUN-2020)
+  PAV=  1132.3  PSIA   WCT=0.311 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   27 TIME=   2098.75  DAYS (   +91.2  DAYS REPT  2 ITS) (28-SEP-2020)
+  PAV=  1113.7  PSIA   WCT=0.325 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   28 TIME=   2190.00  DAYS (   +91.2  DAYS REPT  3 ITS) (29-DEC-2020)
+  PAV=  1095.7  PSIA   WCT=0.338 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     2190.0   DAYS    (29-DEC-2020):
+ @           ******************************************
+ @           * WELL BR-P-14  HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   2190.00   DAYS  .          *
+ @           ******************************************
+ STEP   29 TIME=   2281.25  DAYS (   +91.2  DAYS REPT  2 ITS) (30-MAR-2021)
+  PAV=  1078.4  PSIA   WCT=0.350 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     2281.2   DAYS    (30-MAR-2021):
+ @           ******************************************
+ @           * WELL BR-P-7   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   2281.25   DAYS  .          *
+ @           ******************************************
+ STEP   30 TIME=   2372.50  DAYS (   +91.2  DAYS REPT  3 ITS) (29-JUN-2021)
+  PAV=  1062.2  PSIA   WCT=0.363 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   31 TIME=   2463.75  DAYS (   +91.2  DAYS REPT  2 ITS) (28-SEP-2021)
+  PAV=  1046.9  PSIA   WCT=0.375 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   32 TIME=   2555.00  DAYS (   +91.2  DAYS REPT  2 ITS) (29-DEC-2021)
+  PAV=  1032.4  PSIA   WCT=0.387 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   33 TIME=   2646.25  DAYS (   +91.2  DAYS REPT  2 ITS) (30-MAR-2022)
+  PAV=  1018.6  PSIA   WCT=0.399 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   34 TIME=   2737.50  DAYS (   +91.2  DAYS REPT  2 ITS) (29-JUN-2022)
+  PAV=  1005.4  PSIA   WCT=0.410 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   35 TIME=   2828.75  DAYS (   +91.2  DAYS REPT  2 ITS) (28-SEP-2022)
+  PAV=   992.7  PSIA   WCT=0.421 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   36 TIME=   2920.00  DAYS (   +91.2  DAYS REPT  3 ITS) (29-DEC-2022)
+  PAV=   980.5  PSIA   WCT=0.432 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   37 TIME=   3011.25  DAYS (   +91.2  DAYS REPT  2 ITS) (30-MAR-2023)
+  PAV=   968.9  PSIA   WCT=0.443 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   38 TIME=   3102.50  DAYS (   +91.2  DAYS REPT  2 ITS) (29-JUN-2023)
+  PAV=   957.7  PSIA   WCT=0.453 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   39 TIME=   3193.75  DAYS (   +91.2  DAYS REPT  2 ITS) (28-SEP-2023)
+  PAV=   946.9  PSIA   WCT=0.463 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   40 TIME=   3285.00  DAYS (   +91.2  DAYS REPT  2 ITS) (29-DEC-2023)
+  PAV=   936.6  PSIA   WCT=0.473 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   41 TIME=   3376.25  DAYS (   +91.2  DAYS REPT  2 ITS) (29-MAR-2024)
+  PAV=   926.6  PSIA   WCT=0.482 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     3376.2   DAYS    (29-MAR-2024):
+ @           ******************************************
+ @           * WELL BR-P-3   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   3376.25   DAYS  .          *
+ @           ******************************************
+ STEP   42 TIME=   3467.50  DAYS (   +91.2  DAYS REPT  2 ITS) (28-JUN-2024)
+  PAV=   917.5  PSIA   WCT=0.492 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   43 TIME=   3558.75  DAYS (   +91.2  DAYS REPT  3 ITS) (27-SEP-2024)
+  PAV=   909.1  PSIA   WCT=0.502 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   44 TIME=   3650.00  DAYS (   +91.2  DAYS REPT  2 ITS) (28-DEC-2024)
+  PAV=   901.5  PSIA   WCT=0.511 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   45 TIME=   3741.25  DAYS (   +91.2  DAYS REPT  2 ITS) (29-MAR-2025)
+  PAV=   894.4  PSIA   WCT=0.520 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   46 TIME=   3832.50  DAYS (   +91.2  DAYS REPT  2 ITS) (28-JUN-2025)
+  PAV=   888.0  PSIA   WCT=0.529 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   47 TIME=   3923.75  DAYS (   +91.2  DAYS REPT  2 ITS) (27-SEP-2025)
+  PAV=   882.1  PSIA   WCT=0.539 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   48 TIME=   4015.00  DAYS (   +91.2  DAYS REPT  3 ITS) (28-DEC-2025)
+  PAV=   876.6  PSIA   WCT=0.548 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   49 TIME=   4106.25  DAYS (   +91.2  DAYS REPT  3 ITS) (29-MAR-2026)
+  PAV=   871.0  PSIA   WCT=0.557 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   50 TIME=   4197.50  DAYS (   +91.2  DAYS REPT  2 ITS) (28-JUN-2026)
+  PAV=   865.4  PSIA   WCT=0.565 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   51 TIME=   4288.75  DAYS (   +91.2  DAYS REPT  2 ITS) (27-SEP-2026)
+  PAV=   859.9  PSIA   WCT=0.573 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   52 TIME=   4380.00  DAYS (   +91.2  DAYS REPT  2 ITS) (28-DEC-2026)
+  PAV=   854.5  PSIA   WCT=0.581 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+
+ @--MESSAGE  AT TIME     4380.0   DAYS    (28-DEC-2026):
+ @           ******************************************
+ @           * WELL BR-P-6   HAS CHANGED TO           *
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *
+ @           * FROM TIME   4380.00   DAYS  .          *
+ @           ******************************************
+ STEP   53 TIME=   4471.25  DAYS (   +91.2  DAYS REPT  2 ITS) (29-MAR-2027)
+  PAV=   849.3  PSIA   WCT=0.589 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   54 TIME=   4562.50  DAYS (   +91.2  DAYS REPT  2 ITS) (28-JUN-2027)
+  PAV=   844.7  PSIA   WCT=0.598 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   55 TIME=   4653.75  DAYS (   +91.2  DAYS REPT  2 ITS) (27-SEP-2027)
+  PAV=   840.3  PSIA   WCT=0.606 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   56 TIME=   4745.00  DAYS (   +91.2  DAYS REPT  2 ITS) (28-DEC-2027)
+  PAV=   836.2  PSIA   WCT=0.614 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   57 TIME=   4836.25  DAYS (   +91.2  DAYS REPT  2 ITS) (28-MAR-2028)
+  PAV=   832.1  PSIA   WCT=0.621 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   58 TIME=   4927.50  DAYS (   +91.2  DAYS REPT  2 ITS) (27-JUN-2028)
+  PAV=   828.3  PSIA   WCT=0.628 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   59 TIME=   5018.75  DAYS (   +91.2  DAYS REPT  2 ITS) (26-SEP-2028)
+  PAV=   824.7  PSIA   WCT=0.635 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   60 TIME=   5110.00  DAYS (   +91.2  DAYS REPT  2 ITS) (27-DEC-2028)
+  PAV=   821.3  PSIA   WCT=0.641 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   61 TIME=   5201.25  DAYS (   +91.2  DAYS REPT  2 ITS) (28-MAR-2029)
+  PAV=   817.9  PSIA   WCT=0.647 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   62 TIME=   5292.50  DAYS (   +91.2  DAYS REPT  2 ITS) (27-JUN-2029)
+  PAV=   814.7  PSIA   WCT=0.653 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   63 TIME=   5383.75  DAYS (   +91.2  DAYS REPT  2 ITS) (26-SEP-2029)
+  PAV=   811.4  PSIA   WCT=0.659 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   64 TIME=   5475.00  DAYS (   +91.2  DAYS REPT  2 ITS) (27-DEC-2029)
+  PAV=   808.3  PSIA   WCT=0.664 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   65 TIME=   5566.25  DAYS (   +91.2  DAYS REPT  2 ITS) (28-MAR-2030)
+  PAV=   805.1  PSIA   WCT=0.669 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   66 TIME=   5657.50  DAYS (   +91.2  DAYS REPT  2 ITS) (27-JUN-2030)
+  PAV=   802.0  PSIA   WCT=0.674 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   67 TIME=   5748.75  DAYS (   +91.2  DAYS REPT  2 ITS) (26-SEP-2030)
+  PAV=   799.0  PSIA   WCT=0.678 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   68 TIME=   5840.00  DAYS (   +91.2  DAYS REPT  2 ITS) (27-DEC-2030)
+  PAV=   796.1  PSIA   WCT=0.683 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   69 TIME=   5931.25  DAYS (   +91.2  DAYS REPT  2 ITS) (28-MAR-2031)
+  PAV=   793.4  PSIA   WCT=0.688 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   70 TIME=   6022.50  DAYS (   +91.2  DAYS REPT  2 ITS) (27-JUN-2031)
+  PAV=   790.8  PSIA   WCT=0.692 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   71 TIME=   6113.75  DAYS (   +91.2  DAYS REPT  2 ITS) (26-SEP-2031)
+  PAV=   788.4  PSIA   WCT=0.697 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   72 TIME=   6205.00  DAYS (   +91.2  DAYS REPT  2 ITS) (27-DEC-2031)
+  PAV=   786.1  PSIA   WCT=0.702 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   73 TIME=   6296.25  DAYS (   +91.2  DAYS REPT  2 ITS) (27-MAR-2032)
+  PAV=   783.9  PSIA   WCT=0.707 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   74 TIME=   6387.50  DAYS (   +91.2  DAYS REPT  2 ITS) (26-JUN-2032)
+  PAV=   781.8  PSIA   WCT=0.711 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   75 TIME=   6478.75  DAYS (   +91.2  DAYS REPT  2 ITS) (25-SEP-2032)
+  PAV=   779.8  PSIA   WCT=0.716 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   76 TIME=   6570.00  DAYS (   +91.2  DAYS REPT  2 ITS) (26-DEC-2032)
+  PAV=   778.0  PSIA   WCT=0.721 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   77 TIME=   6661.25  DAYS (   +91.2  DAYS REPT  2 ITS) (27-MAR-2033)
+  PAV=   776.2  PSIA   WCT=0.725 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   78 TIME=   6752.50  DAYS (   +91.2  DAYS REPT  2 ITS) (26-JUN-2033)
+  PAV=   774.4  PSIA   WCT=0.730 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   79 TIME=   6843.75  DAYS (   +91.2  DAYS REPT  2 ITS) (25-SEP-2033)
+  PAV=   772.7  PSIA   WCT=0.734 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   80 TIME=   6935.00  DAYS (   +91.2  DAYS REPT  2 ITS) (26-DEC-2033)
+  PAV=   771.0  PSIA   WCT=0.739 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   81 TIME=   7026.25  DAYS (   +91.2  DAYS REPT  2 ITS) (27-MAR-2034)
+  PAV=   769.4  PSIA   WCT=0.743 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   82 TIME=   7117.50  DAYS (   +91.2  DAYS REPT  2 ITS) (26-JUN-2034)
+  PAV=   767.9  PSIA   WCT=0.747 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   83 TIME=   7208.75  DAYS (   +91.2  DAYS REPT  2 ITS) (25-SEP-2034)
+  PAV=   766.4  PSIA   WCT=0.751 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+ STEP   84 TIME=   7300.00  DAYS (   +91.2  DAYS REPT  2 ITS) (26-DEC-2034)
+  PAV=   765.0  PSIA   WCT=0.756 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF
+    60 READING END
+          306 Mbytes of storage required
+   7.2506     KB/active cell
+           91 Mbytes (image size)
+
+ Error summary
+ Comments               0
+ Warnings               1
+ Problems               0
+ Errors                 0
+ Bugs                   0
+ Final cpu      21.85 elapsed      21.85
+ Total number of time steps forced to be accepted          0
+ PRODUCING RUN SUMMARIES
+ BRUGGE.SMSPEC exists
+ SPEC file succesfully read
+ Opened file BRUGGE.UNSMRY
+     1 files exist containing       85 timesteps
+ Summary file BRUGGE.UNSMRY opened
+                  1999  vectors loaded
+ RUN SUMMARIES COMPLETE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

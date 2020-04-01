@@ -1,0 +1,232 @@
+--------------------------------------------------------------------------
+--  PETROBRAS / CENPES
+--  Centro de Pesquisa e Desenvolvimento  Leopoldo A. Miguez de Mello
+--
+--  Gerenciamento Otimo de Reservatorios de Petroleo
+--  Modelos de Simulacao de Reservatorio para Teste
+--
+--------------------------------------------------------------------------
+--
+--------------------------------------------------------------------------
+--  Caso:
+--  Brugge (FY-SF-KM-12-12)
+--
+--------------------------------------------------------------------------
+--  Descricao:
+--  Modelo ECLIPSE
+--  
+--  Modelo Black-oil tridimensional heterogeneo, contruido a partir das 
+--  informacoes providas do estudo comparativo organizado pelo SPE e 
+--  apresentado numa oficina sobre o problema de ajuste de historico e
+--  otimizacao da producao na cidade de Brugge /Belgica.
+--  Para mais informações, consultar: 
+--  (1) Peters, L., R. Arts, G. Brouwer, C. Geel, S. Cullick, R. Lorentzen,
+--      Y. Chen, K. Dunlop, F. Vossepoel, R. Xu, P. Sarma, A. Alhuthali,
+--      and A. Reynolds, Results of the Brugge benchmark study for flooding
+--      optimisation and history matching, SPE Reservoir Evaluation &
+--      Engineering, 13(3), 391-405, 2010.
+--
+--------------------------------------------------------------------------
+--  Fonte/Preparacao:
+--  Diego Felipe Oliveira
+--
+--
+--------------------------------------------------------------------------
+RUNSPEC
+--------------------------------------------------------------------------
+TITLE
+ BRUGGE_FY-SF-KM-12-12
+
+DIMENS
+   139    48      9  /
+
+UNIFOUT
+
+OIL 
+WATER 
+
+FIELD 
+
+ENDSCALE
+'NODIR'     'REVERS'   /        2    5  /
+TABDIMS
+    1    1   30   20    1   20 /
+WELLDIMS
+ 90     9      31    30     /
+START
+    31    'DEC'  2014   / 
+
+NSTACK
+200/   
+MESSAGES
+8* 10000 /
+
+NOECHO
+
+--------------------------------------------------------------------------
+GRID
+--------------------------------------------------------------------------
+INIT
+
+GRIDFILE
+ 2 /
+
+INCLUDE
+  'ACTNUM.INC'
+/
+
+INCLUDE
+  'PORO.INC'
+/
+
+INCLUDE
+  'PERMX.INC'
+/
+
+COPY
+PERMX PERMY /
+/
+
+INCLUDE
+  'PERMZ.INC'
+/
+
+INCLUDE
+  'NTG.INC'
+/
+INCLUDE
+  'GRID.GRD'
+/
+
+--------------------------------------------------------------------------
+PROPS
+--------------------------------------------------------------------------
+
+-- SWAT  KRW          KRO         PCOW
+SWOF
+0.252	0.00E+00	4.00E-01	26.39191
+0.2526	6.00E-10	3.98E-01	24.35593
+0.2532	4.80E-09	3.96E-01	22.32005
+0.255	7.50E-08	3.90E-01	15.08109
+0.258	6.00E-07	3.80E-01	12.3665
+0.264	4.80E-06	3.62E-01	8.545951
+0.2819	7.50E-05	3.10E-01	5.07012
+0.3118	6.00E-04	2.36E-01	3.296548
+0.3716	4.80E-03	1.31E-01	2.173997
+0.4314	1.62E-02	6.72E-02	1.694109
+0.4912	3.84E-02	3.11E-02	1.422772
+0.551	7.50E-02	1.25E-02	1.240001
+0.6108	1.30E-01	4.10E-03	1.11037
+0.6706	2.06E-01	9.72E-04	1.010571
+0.7304	3.07E-01	1.28E-04	0.9278328
+0.7902	4.37E-01	4.00E-06	0.8665417
+0.85	6.00E-01	0.00E+00	0.8134917
+1	1.00E+00	0.00E+00	0.6032436
+/
+ 
+SWU
+  60048*1.0 
+/ 
+PMAX
+3500 /
+
+PVDO            
+100.12	1.01	1.294
+2565.51	1.0 	1.294
+/ 
+
+DENSITY    
+ 56.00   62.60  0.0516
+/               
+
+PVTW               
+ 2465.51   1.00   3.0E-6   0.32   0.0   /
+
+ROCK
+         2465.51           3.5E-6
+/
+--PCW
+--    60048*26.39
+--/
+
+--------------------------------------------------------------------------
+REGIONS
+--------------------------------------------------------------------------
+
+ENDBOX
+
+--------------------------------------------------------------------------
+SOLUTION
+--------------------------------------------------------------------------
+EQUIL
+-- 	Datum	Pres	WOC		Pcow	
+	5577.4 	2465.51	5505.2 	0.0 	/
+
+--------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------
+ALL                       
+EXCEL                        
+  
+--------------------------------------------------------------------------
+SCHEDULE
+--------------------------------------------------------------------------
+
+Tuning
+1 100 0.1 1* 3 0.3 2* 0.75/
+4* 10/
+2* 200/  
+-- **********************************************************************
+WELSPECS                                                                                                                                                        
+ 'BR-P-1'        PLAT-P   82   44   4990.1   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-2'        PLAT-P   97   38   5152.6   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-3'        PLAT-P   67   42   5085.7   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-4'        PLAT-P   76   42   5011.1   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-5'        PLAT-P   43   46   5285.6   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-6'        PLAT-P   53   47   5268.3   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-7'        PLAT-P   62   47   5212.2   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-8'        PLAT-P   70   46   5189.9   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-9'        PLAT-P   96   45   5316.6   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-10'       PLAT-P  101   45   5270.0   'OIL'     1*   'STD'   3*   'AVG' /                                                                                       
+ 'BR-P-11'       PLAT-P  104   40   5170.7   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-12'       PLAT-P   99   35   5187.5   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-13'       PLAT-P   91   33   5223.3   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-14'       PLAT-P   83   33   5303.9   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-15'       PLAT-P   75   34   5309.6   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-16'       PLAT-P   72   38   5128.8   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-17'       PLAT-P   65   37   5187.6   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-18'       PLAT-P   56   38   5255.0   'OIL'     1*   'STD'   3*   'AVG' /                                                                                        
+ 'BR-P-19'       PLAT-P   52   43   5188.6   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-P-20'       PLAT-P   45   42   5240.2   'OIL'     1*   'STD'   3*   'AVG' /                                                                                      
+ 'BR-I-1'        PLAT-I   32   44   5486.4   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-2'        PLAT-I   38   39   5614.4   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-3'        PLAT-I   47   35   5580.6   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-4'        PLAT-I   55   28   5519.3   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-5'        PLAT-I   63   27   5550.9   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-6'        PLAT-I   72   29   5496.6   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-7'        PLAT-I   82   28   5548.8   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-8'        PLAT-I   92   27   5572.2   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-9'        PLAT-I  105   32   5486.7   'WATER'   1*   'STD'   3*   'AVG' /                                                                                     
+ 'BR-I-10'       PLAT-I  112   43   5481.8   'WATER'   1*   'STD'   3*   'AVG' /                                                                                   
+/
+
+-- **********************************************************************
+INCLUDE                                                                                                                                                         
+'WELL_CON.INC'
+/
+
+-- **********************************************************************
+--INCLUDE                                                                                                                                                         
+--'WELL_CLUMP.INC' 
+--/
+
+-- **********************************************************************
+-- Schedule
+TSTEP
+80*91.25
+/
+END
+
+
+
+
