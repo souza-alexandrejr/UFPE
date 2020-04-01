@@ -1,0 +1,3 @@
+C:\Users\Gabriela\Desktop\Exercise 02 - FORTRAN\oilwatersimulation.F95(5) : comment 1005 - This declaration of NULL has caused the intrinsic of the same name to be inaccessible
+C:\Users\Gabriela\Desktop\Exercise 02 - FORTRAN\oilwatersimulation.F95(5) : warning 197 - Variable K has been declared but not used
+C:\Users\Gabriela\Desktop\Exercise 02 - FORTRAN\oilwatersimulation.F95(39) : error 281 - Not enough constants in DATA statement
